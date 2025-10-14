@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider, FacebookAuthProvider } from "firebase/auth";
+import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 import { getStorage } from "firebase/storage";
 
@@ -13,10 +13,10 @@ const firebaseConfig = {
   appId: "1:660868438136:web:b11f1bcef8054c6698358d",
   measurementId: "G-X3JX6B6P2G"
 };
-const app = initializeApp(firebaseConfig);
+export const app = initializeApp(firebaseConfig);
+
 
 export const auth = getAuth(app);
 export const googleProvider = new GoogleAuthProvider();
-export const facebookProvider = new FacebookAuthProvider();
 export const db = getDatabase(app);
 export const storage = getStorage(app);

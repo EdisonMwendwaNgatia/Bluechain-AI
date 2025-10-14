@@ -1,0 +1,83 @@
+.buyer-dashboard {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.buyer-dashboard h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.buyer-dashboard p {
+  font-size: 1.1rem;
+  color: #777;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.buyer-dashboard .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.buyer-dashboard .form-group label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.buyer-dashboard .form-group input,
+.buyer-dashboard .form-group textarea,
+.buyer-dashboard .form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.buyer-dashboard .form-group input:focus,
+.buyer-dashboard .form-group textarea:focus,
+.buyer-dashboard .form-group select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.buyer-dashboard .form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.buyer-dashboard .form-actions button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buyer-dashboard .form-actions button:first-of-type {
+  background-color: #007bff;
+  color: white;
+}
+
+.buyer-dashboard .form-actions button:first-of-type:hover {
+  background-color: #0056b3;
+}
+
+.buyer-dashboard .form-actions button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

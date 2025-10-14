@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../firebase";
 
@@ -14,5 +14,5 @@ export const useAuth = () => {
     return () => unsub();
   }, []);
 
-  return { user, loading };
+  return useMemo(() => ({ user, loading }), [user, loading]);
 };
