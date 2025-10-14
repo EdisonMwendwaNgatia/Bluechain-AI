@@ -14,6 +14,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import AuthGuard from "./components/AuthGuard";
 import Pricing from "./pages/Pricing";
 import Business from "./pages/Dashboard/Business";
+import Refrigeration from "./pages/RefrigerationServices";
 import Navbar from "./components/Navbar";
 
 export default function App() {
@@ -93,6 +94,14 @@ export default function App() {
           element={
             <ProtectedRoute>
               <Pricing />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/refrigeration"
+          element={
+            <ProtectedRoute>
+              <Refrigeration />
             </ProtectedRoute>
           }
         />
