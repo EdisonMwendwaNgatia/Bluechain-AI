@@ -25,7 +25,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 border-b border-white/10 bg-slate-900/60 backdrop-blur">
       <div className="container mx-auto h-14 px-4 flex items-center justify-between">
         <Link to="/" className="text-white font-extrabold tracking-tight">
-          BlueChain AI
+          BlueChain
         </Link>
 
         <div className="hidden md:flex items-center gap-2">

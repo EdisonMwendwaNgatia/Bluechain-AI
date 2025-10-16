@@ -124,7 +124,7 @@ export default function FisherDashboard() {
                 </div>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                BlueChain AI
+                BlueChain
               </span>
             </div>
             <button 
@@ -144,7 +144,7 @@ export default function FisherDashboard() {
             { icon: "💰", label: "Microloans", path: "/microloans" },
             { icon: "📊", label: "My Business", path: "/business" },
             { icon: "👤", label: "My Profile", path: "/profile" },
-            { icon: "⚡", label: "Advanced AI", path: "/pricing", badge: "Premium" },
+            { icon: "⚡", label: "Advanced Features", path: "/pricing", badge: "Premium" },
             { icon: "📈", label: "Data Feed", path: "/data-feed" },
             { icon: "💳", label: "Credit Dashboard", path: "/credit-dashboard" },
             { icon: "❄️", label: "Refrigeration", path: "/refrigeration" },
@@ -204,7 +204,7 @@ export default function FisherDashboard() {
                   <h2 className="text-2xl font-bold text-white">
                     Welcome back, {user?.displayName || user?.email?.split('@')[0] || 'Fisher'}!
                   </h2>
-                  <p className="text-gray-400 text-sm">Your BlueChain AI Dashboard</p>
+                  <p className="text-gray-400 text-sm">Your BlueChain Dashboard</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
@@ -222,7 +222,7 @@ export default function FisherDashboard() {
 
         {/* Dashboard Content */}
         <div className="p-4 sm:p-6 lg:p-8 space-y-6">
-          {/* AI Suggestion Card - Hero */}
+          {/*Suggestion Card - Hero */}
           <div className="relative overflow-hidden bg-gradient-to-br from-blue-600/20 via-cyan-600/20 to-teal-600/20 rounded-3xl border border-cyan-500/30 shadow-2xl">
             <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgwLDIyNSwyNTUsMC4xKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-30"></div>
             
@@ -233,7 +233,7 @@ export default function FisherDashboard() {
                     🤖
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-white mb-1">AI Top Suggestion</h3>
+                    <h3 className="text-2xl font-bold text-white mb-1">Top Suggestion</h3>
                     <p className="text-cyan-300 text-sm">Powered by BlueChain Intelligence</p>
                   </div>
                 </div>

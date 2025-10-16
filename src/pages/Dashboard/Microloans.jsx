@@ -337,7 +337,7 @@ export default function Microloans() {
                     2️⃣
                   </div>
                   <h4 className="font-semibold text-white mb-2">Apply Directly</h4>
-                  <p className="text-sm">Contact firms directly with your AI credit score</p>
+                  <p className="text-sm">Contact firms directly with your credit score</p>
                 </div>
                 <div>
                   <div className="w-10 h-10 bg-cyan-500/20 rounded-lg flex items-center justify-center text-xl mb-3">

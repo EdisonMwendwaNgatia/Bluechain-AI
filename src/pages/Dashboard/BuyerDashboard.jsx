@@ -321,7 +321,7 @@ export default function BuyerDashboard() {
             {
               icon: "💎",
               title: "Quality Assured",
-              desc: "AI-verified sustainable sourcing",
+              desc: "verified sustainable sourcing",
               color: "from-teal-500 to-green-500"
             }
           ].map((feature, idx) => (

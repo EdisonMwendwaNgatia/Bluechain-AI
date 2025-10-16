@@ -27,7 +27,7 @@ export default function Landing() {
                 </div>
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                BlueChain AI
+                BlueChain
               </span>
             </div>
             
@@ -73,7 +73,7 @@ export default function Landing() {
           }}
         >
           <img 
-            src="/images/oceanScenery.jpeg" 
+            src="/assets/images/oceanScenery.jpeg" 
             alt="Ocean Scenery" 
             className="w-full h-full object-cover"
           />
@@ -146,7 +146,7 @@ export default function Landing() {
             <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-300 bg-clip-text text-transparent">
               Blue Economy
             </span>
-            <span className="block text-white mt-2">Powered by AI</span>
+            <span className="block text-white mt-2">Powered BlueChain</span>
           </h1>
           
           <p 
@@ -155,7 +155,7 @@ export default function Landing() {
               animation: 'fadeInUp 1s ease-out 0.4s both'
             }}
           >
-            Empowering Coastal Communities with Blockchain & AI — smart traceability, 
+            Empowering Coastal Communities with smart traceability, 
             predictive insights, and sustainable growth for the blue economy.
           </p>
           
@@ -202,7 +202,7 @@ export default function Landing() {
               <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full flex items-center justify-center shadow-lg shadow-cyan-500/50">
                 <span className="text-white text-sm">✓</span>
               </div>
-              <span>AI Powered</span>
+              <span>BlueChain Powered</span>
             </div>
             <div className="flex items-center space-x-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-cyan-500/30">
               <div className="w-8 h-8 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full flex items-center justify-center shadow-lg shadow-purple-500/50">
@@ -232,7 +232,7 @@ export default function Landing() {
               <div className="absolute inset-0 bg-gradient-to-r from-red-500/20 to-orange-500/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
               <div className="relative overflow-hidden rounded-3xl border-2 border-red-500/30 shadow-2xl">
                 <img 
-                  src="/images/fishermen.jpg" 
+                  src="/assets/images/fishermenGrowth.jpeg" 
                   alt="Coastal Challenges" 
                   className="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-700"
                 />
@@ -297,7 +297,7 @@ export default function Landing() {
             {[
               { 
                 icon: "📊", 
-                title: "AI Credit Scoring", 
+                title: "Credit Scoring", 
                 desc: "Assess repayment probability from operational and environmental data.",
                 gradient: "from-purple-500 to-blue-500"
               },
@@ -316,7 +316,7 @@ export default function Landing() {
               { 
                 icon: "🌡️", 
                 title: "Ecosystem Monitoring", 
-                desc: "Real-time sensors and AI detect environmental changes.",
+                desc: "Real-time sensors detect environmental changes.",
                 gradient: "from-cyan-500 to-blue-500"
               },
               { 
@@ -366,7 +366,7 @@ export default function Landing() {
               <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 to-teal-500/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
               <div className="relative overflow-hidden rounded-3xl border-2 border-green-500/30 shadow-2xl">
                 <img 
-                  src="/images/financialGrowth.jpeg" 
+                  src="/assets/images/financialGrowth.jpeg" 
                   alt="Financial Growth" 
                   className="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-700"
                 />
@@ -429,7 +429,7 @@ export default function Landing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-              How BlueChain AI Works
+              How BlueChain Works
             </h2>
             <p className="text-xl text-gray-400">Simple four-step process to transform coastal economies</p>
           </div>
@@ -445,7 +445,7 @@ export default function Landing() {
               },
               {
                 step: "2",
-                title: "AI Analysis",
+                title: "Analysis",
                 desc: "Smart forecasting and credit assessment",
                 icon: "🤖",
                 color: "from-cyan-500 to-teal-500"
@@ -498,8 +498,8 @@ export default function Landing() {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
               <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-12 border-2 border-cyan-500/30 shadow-2xl flex items-center justify-center">
                 <img 
-                  src="/images/logo.jpg" 
-                  alt="BlueChain AI Logo" 
+                  src="/assets/images/logo.jpg" 
+                  alt="BlueChain Logo" 
                   className="max-w-full h-auto transform group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -507,10 +507,10 @@ export default function Landing() {
             
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                About BlueChain AI
+                About BlueChain 
               </h2>
               <p className="text-xl text-gray-300 leading-relaxed mb-6">
-                BlueChain AI is a locally-rooted initiative supporting coastal communities across Kenya and East Africa. 
+                BlueChain is a locally-rooted initiative supporting coastal communities across Kenya and East Africa. 
                 With active partners in Kajiado and coastal regions, we combine deep local understanding with cutting-edge 
                 technology to create practical, sustainable solutions.
               </p>
@@ -544,7 +544,7 @@ export default function Landing() {
               </h2>
               <p className="text-xl text-gray-300 leading-relaxed mb-6">
                 Every action on our platform contributes to protecting the breathtaking marine ecosystems that sustain 
-                coastal communities. Through blockchain verification and AI monitoring, we ensure that economic growth 
+                coastal communities. We ensure that economic growth 
                 goes hand-in-hand with ocean conservation.
               </p>
               <ul className="space-y-4">
@@ -566,7 +566,7 @@ export default function Landing() {
               <div className="absolute inset-0 bg-gradient-to-r from-teal-500/20 to-cyan-500/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
               <div className="relative overflow-hidden rounded-3xl border-2 border-teal-500/30 shadow-2xl">
                 <img 
-                  src="/images/oceanscenery2.jpeg" 
+                  src="/assets/images/oceanscenery2.jpeg" 
                   alt="Ocean Conservation" 
                   className="w-full h-96 object-cover transform group-hover:scale-110 transition-transform duration-700"
                 />
@@ -655,11 +655,11 @@ export default function Landing() {
                   </div>
                 </div>
                 <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                  BlueChain AI
+                  BlueChain
                 </span>
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
-                Empowering coastal communities through blockchain and AI for a sustainable blue economy.
+                Empowering coastal communities for a sustainable blue economy.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="w-12 h-12 bg-gray-800 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 rounded-xl flex items-center justify-center transition-all duration-300 group">
@@ -686,7 +686,7 @@ export default function Landing() {
               <ul className="space-y-4">
                 <li className="flex items-start space-x-3 text-gray-400">
                   <span className="text-cyan-400">📧</span>
-                  <a href="mailto:hello@bluechain.ai" className="hover:text-cyan-400 transition-colors">hello@bluechain.ai</a>
+                  <a href="mailto:hello@bluechain.com" className="hover:text-cyan-400 transition-colors">hello@bluechain.com</a>
                 </li>
                 <li className="flex items-start space-x-3 text-gray-400">
                   <span className="text-cyan-400">📱</span>
@@ -717,7 +717,7 @@ export default function Landing() {
           
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-center md:text-left mb-4 md:mb-0">
-              © {new Date().getFullYear()} BlueChain AI. Empowering coastal communities through technology.
+              © {new Date().getFullYear()} BlueChain. Empowering coastal communities through technology.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors text-sm">Privacy Policy</a>

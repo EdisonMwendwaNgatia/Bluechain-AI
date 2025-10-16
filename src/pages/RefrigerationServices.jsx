@@ -413,7 +413,7 @@ export default function RefrigerationServices() {
               <p className="text-cyan-200 mb-4">Contact our support team for urgent refrigeration needs</p>
               <div className="space-y-2 text-sm">
                 <p className="text-white">📞 Emergency Hotline: <strong>+254 700 123 456</strong></p>
-                <p className="text-white">📧 Email: <strong>emergency@bluechain.ai</strong></p>
+                <p className="text-white">📧 Email: <strong>emergency@bluechain.com</strong></p>
                 <p className="text-white">🕒 Available: <strong>24/7</strong></p>
               </div>
             </div>

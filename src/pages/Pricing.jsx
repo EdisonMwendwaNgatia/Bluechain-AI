@@ -27,7 +27,7 @@ export default function Pricing() {
       subtitle: "Basic",
       price: "Free",
       priceDetail: "Forever",
-      description: "Perfect for getting started with BlueChain AI",
+      description: "Perfect for getting started with BlueChain",
       icon: "🌊",
       gradient: "from-blue-500 to-cyan-500",
       features: [
@@ -36,7 +36,7 @@ export default function Pricing() {
         { text: "Marketplace access", included: true },
         { text: "Community features", included: true },
         { text: "Mobile app access", included: true },
-        { text: "AI forecasts", included: false },
+        { text: "forecasts", included: false },
         { text: "Credit scoring", included: false },
         { text: "Advanced insights", included: false }
       ],
@@ -50,12 +50,12 @@ export default function Pricing() {
       subtitle: "Most Popular",
       price: "KES 500-800",
       priceDetail: "$3-5 / month",
-      description: "Unlock AI-powered insights for smarter decisions",
+      description: "Unlock BlueChain-powered insights for smarter decisions",
       icon: "⚡",
       gradient: "from-cyan-500 to-teal-500",
       features: [
         { text: "Everything in Free", included: true },
-        { text: "AI catch forecasts", included: true },
+        { text: "catch forecasts", included: true },
         { text: "Credit scoring system", included: true },
         { text: "Real-time price insights", included: true },
         { text: "Weather predictions", included: true },
@@ -73,15 +73,14 @@ export default function Pricing() {
       subtitle: "Professional",
       price: "KES 1,500-2,000",
       priceDetail: "$10-15 / month",
-      description: "Complete AI suite for professional operations",
+      description: "suite for professional operations",
       icon: "💎",
       gradient: "from-teal-500 to-green-500",
       features: [
         { text: "Everything in Premium", included: true },
         { text: "Sustainability scorecard", included: true },
         { text: "Export market finder", included: true },
-        { text: "AI chat assistant", included: true },
-        { text: "Offline AI models", included: true },
+        { text: "chat assistant", included: true },
         { text: "Custom reports", included: true },
         { text: "API access", included: true },
         { text: "Dedicated account manager", included: true }
@@ -154,7 +153,7 @@ export default function Pricing() {
                 </div>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                BlueChain AI
+                BlueChain
               </span>
             </div>
           </div>
@@ -173,11 +172,11 @@ export default function Pricing() {
 
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-teal-400 bg-clip-text text-transparent">
-                Choose Your AI Plan
+                Choose Your Plan
               </span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-              Start with our free plan and upgrade anytime to unlock powerful AI insights 
+              Start with our free plan and upgrade anytime to unlock powerful insights 
               that help you maximize profits and sustainability.
             </p>
 
@@ -290,7 +289,7 @@ export default function Pricing() {
                 {[
                   {
                     icon: "🤖",
-                    title: "AI-Powered Forecasts",
+                    title: "Forecasts",
                     desc: "Predict catch volumes, weather patterns, and market demand with advanced machine learning",
                     color: "from-blue-500 to-cyan-500"
                   },
@@ -339,7 +338,7 @@ export default function Pricing() {
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-cyan-400 mt-1">•</span>
-                  <span>Upgrading unlocks advanced AI insights to help optimize your fishing decisions and maximize income.</span>
+                  <span>Upgrading unlocks advanced insights to help optimize your fishing decisions and maximize income.</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <span className="text-cyan-400 mt-1">•</span>
@@ -364,7 +363,7 @@ export default function Pricing() {
                   Ready to Get Started?
                 </h3>
                 <p className="text-xl text-blue-100 mb-8">
-                  Join thousands of coastal fishers using AI to grow their business
+                  Join thousands of coastal fishers using to grow your business
                 </p>
                 <button
                   onClick={() => navigate('/dashboard')}

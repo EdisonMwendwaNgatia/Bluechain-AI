@@ -134,7 +134,7 @@ export default function Login() {
                 </div>
                 <div>
                   <h1 className="text-5xl font-bold bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-300 bg-clip-text text-transparent">
-                    BlueChain AI
+                    BlueChain
                   </h1>
                   <p className="text-cyan-300 text-sm mt-1">Empowering Coastal Communities</p>
                 </div>
@@ -148,7 +148,7 @@ export default function Login() {
               </h2>
               
               <p className="text-xl text-gray-300 leading-relaxed">
-                Join thousands of coastal communities using blockchain and AI to create 
+                Join thousands of coastal communities using BlueChain to create 
                 sustainable livelihoods and protect our oceans.
               </p>
             </div>
@@ -157,7 +157,7 @@ export default function Login() {
             <div className="space-y-4">
               {[
                 { icon: "🔗", text: "Blockchain-verified traceability" },
-                { icon: "🤖", text: "AI-powered credit scoring" },
+                { icon: "🤖", text: "BlueChain-powered credit scoring" },
                 { icon: "🌊", text: "Real-time ocean monitoring" },
                 { icon: "💰", text: "Instant smart payments" }
               ].map((feature, idx) => (
@@ -188,7 +188,7 @@ export default function Login() {
               </div>
               <h1 className="text-4xl font-bold mb-2">
                 <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                  BlueChain AI
+                  BlueChain
                 </span>
               </h1>
               <p className="text-gray-300 text-sm">Empowering Coastal Communities</p>

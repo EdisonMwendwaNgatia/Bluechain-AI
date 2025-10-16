@@ -432,7 +432,7 @@ export default function CreditDashboard() {
                   <div>
                     <h3 className="text-blue-300 font-semibold mb-1">Data Privacy & Security</h3>
                     <p className="text-blue-200/80 text-sm">
-                      All information is encrypted and stored securely. Your credit firm details are shared only within the BlueChain AI network to facilitate partnerships and lending opportunities.
+                      All information is encrypted and stored securely. Your credit firm details are shared only within the BlueChain network to facilitate partnerships and lending opportunities.
                     </p>
                   </div>
                 </div>
@@ -471,7 +471,7 @@ export default function CreditDashboard() {
             <div className="flex items-center justify-between mb-8">
               <div>
                 <h2 className="text-3xl font-bold text-white mb-2">Credit Firms Network</h2>
-                <p className="text-gray-400">Connect with other credit firms in the BlueChain AI ecosystem</p>
+                <p className="text-gray-400">Connect with other credit firms in the BlueChain ecosystem</p>
               </div>
               <button
                 onClick={fetchOtherCreditFirms}
