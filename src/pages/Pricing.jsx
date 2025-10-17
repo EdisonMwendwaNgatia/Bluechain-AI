@@ -33,12 +33,8 @@ export default function Pricing() {
       features: [
         { text: "Activity logging", included: true },
         { text: "Basic analytics dashboard", included: true },
-        { text: "Marketplace access", included: true },
         { text: "Community features", included: true },
-        { text: "Mobile app access", included: true },
-        { text: "forecasts", included: false },
-        { text: "Credit scoring", included: false },
-        { text: "Advanced insights", included: false }
+        { text: "Mobile app access", included: true }
       ],
       buttonText: "Current Plan",
       buttonDisabled: true,
@@ -48,20 +44,19 @@ export default function Pricing() {
       id: "premium",
       name: "Premium",
       subtitle: "Most Popular",
-      price: "KES 500-800",
-      priceDetail: "$3-5 / month",
+      price: "KES 999",
       description: "Unlock BlueChain-powered insights for smarter decisions",
       icon: "⚡",
       gradient: "from-cyan-500 to-teal-500",
       features: [
         { text: "Everything in Free", included: true },
-        { text: "catch forecasts", included: true },
+        { text: "Forecasts", included: true },
         { text: "Credit scoring system", included: true },
-        { text: "Real-time price insights", included: true },
-        { text: "Weather predictions", included: true },
-        { text: "Market demand analytics", included: true },
+        { text: "Real-time data insights", included: true },
         { text: "Priority support", included: true },
-        { text: "Sustainability scorecard", included: false }
+        { text: "Marketplace access", included: true },
+        { text: "Custom reports", included: true }
+
       ],
       buttonText: "Upgrade to Premium",
       buttonDisabled: false,
@@ -71,20 +66,16 @@ export default function Pricing() {
       id: "premium-plus",
       name: "Premium+",
       subtitle: "Professional",
-      price: "KES 1,500-2,000",
-      priceDetail: "$10-15 / month",
+      price: "KES 2,499",
       description: "suite for professional operations",
       icon: "💎",
       gradient: "from-teal-500 to-green-500",
       features: [
         { text: "Everything in Premium", included: true },
         { text: "Sustainability scorecard", included: true },
-        { text: "Export market finder", included: true },
         { text: "chat assistant", included: true },
         { text: "Custom reports", included: true },
-        { text: "API access", included: true },
-        { text: "Dedicated account manager", included: true }
-      ],
+        { text: "API access", included: true }      ],
       buttonText: "Upgrade to Premium+",
       buttonDisabled: false,
       popular: false
@@ -214,7 +205,7 @@ export default function Pricing() {
                 <div className={`absolute inset-0 bg-gradient-to-r ${plan.gradient} rounded-3xl blur-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-500`}></div>
 
                 {/* Card Content */}
-                <div className={`relative bg-gray-800/60 backdrop-blur-xl rounded-3xl border-2 ${
+                <div className={`relative bg-gray-800/60 rounded-3xl border-2 ${
                   plan.popular 
                     ? 'border-cyan-500 shadow-2xl shadow-cyan-500/20' 
                     : 'border-gray-700/50'
@@ -380,7 +371,7 @@ export default function Pricing() {
       <style jsx>{`
         @keyframes float {
           0% {
-            transform: translateY(100vh) scale(0);
+            transform: translateY(50vh) scale(0);
             opacity: 0;
           }
           10% {
@@ -390,7 +381,7 @@ export default function Pricing() {
             opacity: 1;
           }
           100% {
-            transform: translateY(-100vh) scale(1);
+            transform: translateY(-50vh) scale(1);
             opacity: 0;
           }
         }

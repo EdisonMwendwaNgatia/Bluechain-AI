@@ -156,7 +156,7 @@ export default function Login() {
             {/* Feature Highlights */}
             <div className="space-y-4">
               {[
-                { icon: "🔗", text: "Blockchain-verified traceability" },
+                { icon: "🔗", text: "verified traceability" },
                 { icon: "🤖", text: "BlueChain-powered credit scoring" },
                 { icon: "🌊", text: "Real-time ocean monitoring" },
                 { icon: "💰", text: "Instant smart payments" }

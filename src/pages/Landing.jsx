@@ -196,7 +196,7 @@ export default function Landing() {
               <div className="w-8 h-8 bg-gradient-to-br from-green-400 to-emerald-500 rounded-full flex items-center justify-center shadow-lg shadow-green-500/50">
                 <span className="text-white text-sm">✓</span>
               </div>
-              <span>Blockchain Secure</span>
+              <span>Secure</span>
             </div>
             <div className="flex items-center space-x-2 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-cyan-500/30">
               <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full flex items-center justify-center shadow-lg shadow-cyan-500/50">
@@ -257,9 +257,8 @@ export default function Landing() {
               
               <div className="space-y-4">
                 {[
-                  { icon: "💰", title: "Limited Financing", desc: "Fishers struggle to access credit facilities" },
                   { icon: "🐟", title: "Massive Losses", desc: "Up to 40% of catch spoils before reaching market" },
-                  { icon: "🔍", title: "Lack of Transparency", desc: "Unclear supply chains enable illegal practices" },
+                  { icon: "💰", title: "Limited Financing", desc: "Fishers struggle to access credit facilities" },
                   { icon: "🌊", title: "Conservation Gap", desc: "Insufficient funding for marine protection" }
                 ].map((item, idx) => (
                   <div 
@@ -296,40 +295,22 @@ export default function Landing() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { 
+                icon: "📱", 
+                title: "Mobile First", 
+                desc: "Works in low-connectivity areas with offline capabilities.",
+                gradient: "from-blue-600 to-purple-600"
+              },
+              { 
                 icon: "📊", 
                 title: "Credit Scoring", 
                 desc: "Assess repayment probability from operational and environmental data.",
                 gradient: "from-purple-500 to-blue-500"
               },
               { 
-                icon: "🔍", 
-                title: "Blockchain Traceability", 
-                desc: "Immutable records across the entire supply chain.",
-                gradient: "from-blue-500 to-cyan-500"
-              },
-              { 
-                icon: "⚡", 
-                title: "Smart Payments", 
-                desc: "Automated payments when sustainability criteria are verified.",
-                gradient: "from-green-500 to-teal-500"
-              },
-              { 
-                icon: "🌡️", 
-                title: "Ecosystem Monitoring", 
-                desc: "Real-time sensors detect environmental changes.",
-                gradient: "from-cyan-500 to-blue-500"
-              },
-              { 
                 icon: "💎", 
-                title: "Conservation Credits", 
+                title: "Conservation Credits(Bluechain Coins)", 
                 desc: "Tradable tokens tied to verified conservation outcomes.",
                 gradient: "from-teal-500 to-green-500"
-              },
-              { 
-                icon: "📱", 
-                title: "Mobile First", 
-                desc: "Works in low-connectivity areas with offline capabilities.",
-                gradient: "from-blue-600 to-purple-600"
               }
             ].map((feature, idx) => (
               <div 
@@ -395,7 +376,7 @@ export default function Landing() {
                 },
                 {
                   title: "Tourists & Donors",
-                  items: ["Verified impact", "Transparent tracking", "Direct support", "Impact reporting"],
+                  items: ["Transparent tracking", "Direct support"],
                   color: "teal"
                 },
                 {
@@ -452,8 +433,8 @@ export default function Landing() {
               },
               {
                 step: "3",
-                title: "Blockchain Verify",
-                desc: "Smart contracts release automated payments",
+                title: "Top Verification",
+                desc: "Payments handled by adminstrators",
                 icon: "🔗",
                 color: "from-teal-500 to-green-500"
               },
@@ -510,23 +491,22 @@ export default function Landing() {
                 About BlueChain 
               </h2>
               <p className="text-xl text-gray-300 leading-relaxed mb-6">
-                BlueChain is a locally-rooted initiative supporting coastal communities across Kenya and East Africa. 
-                With active partners in Kajiado and coastal regions, we combine deep local understanding with cutting-edge 
+                BlueChain is a locally-rooted initiative supporting coastal communities across Kenya and East Africa.we combine deep local understanding with cutting-edge 
                 technology to create practical, sustainable solutions.
               </p>
               <p className="text-lg text-gray-400 leading-relaxed mb-8">
-                Our mission is to increase incomes, reduce waste, and make conservation fundable and traceable through 
+                Our mission is to increase incomes, reduce waste, create jobs and make conservation fundable and traceable through 
                 transparent technology that serves both people and planet.
               </p>
               
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 backdrop-blur-sm rounded-2xl p-6 border border-blue-500/30">
                   <p className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent mb-2">100+</p>
-                  <p className="text-gray-300">MSMEs Served</p>
+                  <p className="text-gray-300">MSMEs Served    (pilot programme projection)</p>
                 </div>
                 <div className="bg-gradient-to-br from-cyan-500/20 to-teal-500/20 backdrop-blur-sm rounded-2xl p-6 border border-cyan-500/30">
-                  <p className="text-4xl font-bold bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent mb-2">40%</p>
-                  <p className="text-gray-300">Loss Reduction</p>
+                  <p className="text-4xl font-bold bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text text-transparent mb-2">30%+</p>
+                  <p className="text-gray-300">Loss Reduction projection</p>
                 </div>
               </div>
             </div>

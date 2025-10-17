@@ -315,7 +315,7 @@ export default function BuyerDashboard() {
             {
               icon: "📊",
               title: "Track Orders",
-              desc: "Real-time blockchain traceability",
+              desc: "Real-time traceability",
               color: "from-cyan-500 to-teal-500"
             },
             {
