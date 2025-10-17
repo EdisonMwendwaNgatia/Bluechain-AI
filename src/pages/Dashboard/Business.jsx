@@ -169,8 +169,7 @@ export default function Business() {
               { icon: '🏪', label: 'My Business', path: '/business', active: true },
               { icon: '👤', label: 'My Profile', path: '/profile' },
               { icon: '⚡', label: 'Advanced Features', path: '/pricing' },
-              { icon: '📊', label: 'Data Feed', path: '/data-feed' },
-              { icon: '💳', label: 'Credit Dashboard', path: '/credit-dashboard' }
+              { icon: '📊', label: 'Data Feed', path: '/data-feed' }
             ].map((item, idx) => (
               <button
                 key={idx}
