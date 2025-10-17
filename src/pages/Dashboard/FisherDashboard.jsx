@@ -146,7 +146,6 @@ export default function FisherDashboard() {
             { icon: "👤", label: "My Profile", path: "/profile" },
             { icon: "⚡", label: "Advanced Features", path: "/pricing", badge: "Premium" },
             { icon: "📈", label: "Data Feed", path: "/data-feed" },
-            { icon: "💳", label: "Credit Dashboard", path: "/credit-dashboard" },
             { icon: "❄️", label: "Refrigeration", path: "/refrigeration" },
           ].map((item, idx) => (
             <button
